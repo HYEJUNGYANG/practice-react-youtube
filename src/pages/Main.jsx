@@ -17,19 +17,8 @@ export default function Main() {
   if (isLoading) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className=" dark:bg-main-dark">
       {videos.items.map((video) => (
-        // <div key={video.id}>
-        //   <div class="w-48 rounded-xl overflow-hidden">
-        //     <img
-        //       class="w-full aspect-video object-cover"
-        //       src={video.snippet.thumbnails.standard.url}
-        //       alt="thumbnail"
-        //     />
-        //   </div>
-        //   <p>{video.snippet.title}</p>
-        //   <hr />
-        // </div>
         <VideoContents key={video.id} video={video} />
       ))}
     </div>

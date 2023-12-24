@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: 'class',
   content: ['./src/**/*.{jsx, js, ts, tsx}'],
@@ -9,10 +10,15 @@ module.exports = {
       },
       width: {
         22: '5.5rem',
+        58: '14.3rem',
         100: '34rem'
       },
       padding: {
-        2.5: '0.6rem'
+        2.5: '0.6rem',
+        58: '14.3rem'
+      },
+      margin: {
+        58: '14.3rem'
       },
       borderWidth: {
         0.5: '0.5px',
@@ -26,4 +32,8 @@ module.exports = {
     }
   },
   plugins: []
+};
+
+value = {
+  58: '14.3rem'
 };

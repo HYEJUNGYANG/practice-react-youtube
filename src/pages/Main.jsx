@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import VideoContents from '../components/VideoContents';
+import Menu from '../components/Menu';
 
 export default function Main() {
   const {
@@ -17,10 +18,13 @@ export default function Main() {
   if (isLoading) return <p>Loading...</p>;
 
   return (
-    <div className=" dark:bg-main-dark">
-      {videos.items.map((video) => (
-        <VideoContents key={video.id} video={video} />
-      ))}
+    <div className="flex pt-3 dark:bg-main-dark">
+      <Menu />
+      <div className="ml-58">
+        {videos.items.map((video) => (
+          <VideoContents key={video.id} video={video} />
+        ))}
+      </div>
     </div>
   );
 }

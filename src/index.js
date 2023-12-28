@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './pages/Main';
 import Result from './pages/Result';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Channel from './pages/Channel';
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'result',
         element: <Result />
+      },
+      {
+        path: ':channelName',
+        element: <Channel />
       }
     ]
   }

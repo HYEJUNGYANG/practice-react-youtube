@@ -1,12 +1,16 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { TfiSearch, TfiClose } from 'react-icons/tfi';
 import { PiMicrophoneFill } from 'react-icons/pi';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 export default function Search() {
   // 검색창 input focus 여부
   const [focus, setFocus] = useState(false);
   const [text, setText] = useState('');
   const inputRef = useRef(null);
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get('search_query');
 
   const handleFocus = () => {
     setFocus((prev) => !prev);
@@ -30,8 +34,15 @@ export default function Search() {
     if (text.trim().length === 0) {
       return;
     }
-    alert(text.trim());
+    const replaceText = text.trim().replace(/ /gi, '+');
+    // setText('');
+    navigate(`/result?search_query=${replaceText}`);
   };
+
+  useEffect(() => {
+    console.log(query);
+    query && setText(query);
+  }, [query]);
 
   return (
     <form onSubmit={handleSubmit}>

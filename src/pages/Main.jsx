@@ -3,9 +3,10 @@ import React from 'react';
 import VideoContents from '../components/VideoContents';
 import Menu from '../components/Menu';
 import { useOutletContext } from 'react-router-dom';
+import VideoFilter from '../components/VideoFilter';
 
 export default function Main() {
-  const { mini } = useOutletContext();
+  const { mini, darkMode } = useOutletContext();
   const {
     isLoading,
     error,
@@ -20,12 +21,20 @@ export default function Main() {
   if (isLoading) return <p>Loading...</p>;
 
   return (
-    <div className="flex pt-3 dark:bg-main-dark">
+    <div className="flex pt-6 -ml-2 dark:bg-main-dark">
       <Menu mini={mini} />
-      <div className={`${mini ? 'ml-22' : 'ml-58'}`}>
-        {videos.items.map((video) => (
-          <VideoContents key={video.id} video={video} />
-        ))}
+      <div className={`flex flex-col ${mini ? 'pl-22' : 'pl-58'}`}>
+        <VideoFilter mini={mini} />
+        <div className={`flex flex-wrap mt-16`}>
+          {videos.items.map((video) => (
+            <VideoContents
+              key={video.id}
+              video={video}
+              mini={mini}
+              darkMode={darkMode}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

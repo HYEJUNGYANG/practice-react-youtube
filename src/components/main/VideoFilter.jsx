@@ -3,9 +3,9 @@ import React from 'react';
 export default function VideoFilter({ mini }) {
   return (
     <div
-      className={`fixed top-14 left-0 right-0 py-3 flex gap-3.5 z-10 bg-white ${
+      className={`fixed top-14 left-0 right-0 py-3 flex gap-3.5 z-10 ${
         mini ? 'pl-22' : 'pl-58'
-      } dark:bg-main-dark`}
+      }`}
     >
       {filters.map((filter, idx) => (
         <div

@@ -1,0 +1,352 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "1qapc0cwVA3d-D2fWvjfQ-SZ_es",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 833044,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "owMW1W5-4sWEdUxmmBGAhZEbOTc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TQSsxSwTPJs"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-27T09:00:30Z",
+        "channelId": "UCB11SAf7WSN4GrCquKoOHrw",
+        "title": "노트북 인생 난제! 맥북 vs 윈도우 차이점 뇌에 때려박아(?)드림 [뇌절테크 2화]",
+        "description": "쿠팡에서 아무거나 사러가기 : https://link.coupang.com/a/bkrL0A 인스타그램: https://www.instagram.com/zuyoni/ 00:00 오프닝 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주연 ZUYONI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-27T09:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5-PfNERMBwU-59BmpZF1NnvVwYA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iAiXZqt9mRE"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-28T11:30:19Z",
+        "channelId": "UCdUcjkyZtf-1WJyPPiETF1g",
+        "title": "애플 M3 Pro는 소문대로 역대급 똥망일까? 맥북프로 14인치 스페이스 블랙 언빡싱!",
+        "description": "지난번 갑작스럽게 발표되었던 애플실리콘의 새로운 M3 시리즈. 많은 분들께서 궁금해 하시는 M3 Pro를 구입해서 도착 후 테스트해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iAiXZqt9mRE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iAiXZqt9mRE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iAiXZqt9mRE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ITSub잇섭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-28T11:30:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wSOSJfz-iZV6nbLsfWc3XOXpAWY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AeUZ59NaRSo"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-31T09:00:06Z",
+        "channelId": "UCdUcjkyZtf-1WJyPPiETF1g",
+        "title": "리얼블랙 맥북 등장 ㄷㄷ;;; 새로운 M3를 탑재한 애플 맥북프로&amp;아이맥 총정리!",
+        "description": "드디어 떴다!!! 애플의 새로운 프로세서인 M3 시리즈 3종이 모두 공개됨과 동시에 고성능을 위한 맥북프로 그리고 아이맥이 새롭게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AeUZ59NaRSo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AeUZ59NaRSo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AeUZ59NaRSo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ITSub잇섭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-31T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lvlyi7Pqitpv7DRaVQq8cFTpOTE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KC86t-EaL5Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-13T10:00:21Z",
+        "channelId": "UCO4RG1vk36RKwc2z6TZ7Djw",
+        "title": "애플 맥북프로 M3 후기 및 선택팁! 스페이스 블랙 vs 실버, 14인치 vs 16인치, M3 vs Pro, Max, 맥북에어까지  [4K]",
+        "description": "애플 소식 빠르게 받기 : https://goo.gl/n934rz 글로벌 IT 소식 및 제품 리뷰를 빠르게 만나보고 싶으신 분들은 구독과 알림, 좋아요 부탁 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KC86t-EaL5Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KC86t-EaL5Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KC86t-EaL5Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이퓨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-13T10:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3SP8XP_WpATKCuGtxdnD2d7-OBE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iYeX39SnmeY"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-26T11:30:14Z",
+        "channelId": "UCdUcjkyZtf-1WJyPPiETF1g",
+        "title": "그래서 둘 중 뭘 사야하죠?? 애플 M2 신형 맥북에어 15인치 언빡싱&amp;맥북프로 14인치와 비교해보기!",
+        "description": "M2를 탑재한 맥북에어 15인치가 출시되는 걸 미국에서 본 직후 바로 현질하여 구매했습니다. 시기가 시기인 지라 M3가 나오기 전 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iYeX39SnmeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iYeX39SnmeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iYeX39SnmeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ITSub잇섭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-26T11:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A9dPcCJrC_6wfosC8kb0xb4xfjs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4uppv5Ulduk"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-15T07:00:03Z",
+        "channelId": "UC7I5VTuNKdc5n_easblV3qg",
+        "title": "맥북사고 후회하는 4가지 단점. 구매전에 꼭 보세요!  #맥북 #맥북프로 #애플",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4uppv5Ulduk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4uppv5Ulduk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4uppv5Ulduk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사유 - 사야하는이유",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-15T07:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cKiBV1TKLoQqcOx6nPFSjhdUJWY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DfNfOuk8b5c"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-24T11:45:00Z",
+        "channelId": "UC_pjuSgLRvGFAsita_Dvsiw",
+        "title": "맥북에어 vs 맥북프로 뭐사지? 맥북 구매 가이드",
+        "description": "2023 버전 모든 맥북 라인업 구매가이드 업데이트할 타이밍이쥬 그리고 여기에다가 함정카드까지 알려드립니다   ✓ 촬영 : 고나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DfNfOuk8b5c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DfNfOuk8b5c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DfNfOuk8b5c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "고나고",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-24T11:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9Ya0oMpRA5_66CuA3jl_XI1xpCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vchzaJmGC6k"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-09T02:14:50Z",
+        "channelId": "UCEBwfWU8Qq_GyxQkM0FuSLA",
+        "title": "윈도우에서 맥북으로 환승을 고민하시는 분들이라면 보세요(with 맥북 에어 M1 1년 사용 후기)",
+        "description": "생산성이 어떤 의미인지 잘 와닿지 않는다는 분들이 계셔서 덧붙입니다. 이건 사용해보시면서 느끼시는 부분인데 휴대폰에서 파일과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vchzaJmGC6k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vchzaJmGC6k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vchzaJmGC6k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "슬크생",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-09T02:14:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Da-KbA5LUm4C4WCdO4bPAeAzQgg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gzeYNuzVWak"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-25T23:40:56Z",
+        "channelId": "UCgiwbhqXx2D_H_tWHW-GGmw",
+        "title": "(Sub) 이제vlog | 일상브이로그 | 맥북프로 M3 언박싱 | 너븐재 그릇 | 고양이브이로그 | 집밥 | 요리 | 커피 ☕️",
+        "description": "안녕하세요, 이제eeje 입니다. 소소한 일상을 담았어요. 편히 봐주셔요. 감사합니다. Thank you! #일상브이로그 #집밥 #너븐재 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gzeYNuzVWak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gzeYNuzVWak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gzeYNuzVWak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이제eeje",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-25T23:40:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CAfufG38i7Zl-108hsxXLyz352s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EutoY3JCtH0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T10:00:48Z",
+        "channelId": "UC-s21Bxx_lPkIXh04nZqQqg",
+        "title": "맥북을 사면 안 되는 이유..[말랑한하루]",
+        "description": "shorts #맥북 #애플 #아이폰.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EutoY3JCtH0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EutoY3JCtH0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EutoY3JCtH0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "유말랑",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T10:00:48Z"
+      }
+    }
+  ]
+}

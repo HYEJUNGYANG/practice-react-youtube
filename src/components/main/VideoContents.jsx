@@ -23,9 +23,6 @@ export default function VideoContents({ video, mini, darkMode }) {
     }
   });
 
-  // videos/channel.json
-  // https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${channelId}&key=AIzaSyAJ_uDUJ_y1CLJSi7oGpVqxAV-MfGJv310
-
   const navigateChannel = () => {
     navigate(
       `/${

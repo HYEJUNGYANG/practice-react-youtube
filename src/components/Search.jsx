@@ -35,12 +35,11 @@ export default function Search() {
       return;
     }
     const replaceText = text.trim().replace(/ /gi, '+');
-    // setText('');
+    inputRef.current.blur();
     navigate(`/result?search_query=${replaceText}`);
   };
 
   useEffect(() => {
-    console.log(query);
     query && setText(query);
   }, [query]);
 
@@ -58,7 +57,7 @@ export default function Search() {
           <input
             type="text"
             placeholder="검색"
-            className="h-full pl-4 pr-9 py-2 outline-none border-solid border-1 border-slate-300 rounded-tl-3xl rounded-bl-3xl w-100 focus:border-blue-800 focus:rounded-none focus:border-l-0 dark:bg-main-dark dark:border-slate-600 focus:dark:border-l-0 focus:dark:border-blue-500 dark:text-white"
+            className="h-full pl-4 pr-9 py-2 outline-none border-solid border-1 border-slate-300 rounded-tl-3xl rounded-bl-3xl w-100 focus:border-blue-800 focus:rounded-none focus:border-l-0 dark:bg-main-dark dark:border-white/15 focus:dark:border-l-0 focus:dark:border-blue-500 dark:text-white"
             value={text}
             ref={inputRef}
             onChange={handleChange}
@@ -79,7 +78,7 @@ export default function Search() {
         </label>
         {/* search button */}
         <button
-          className="h-full px-5 py-2 outline-none bg-gray-50 border-solid border-1 border-slate-300 border-l-0 rounded-tr-3xl rounded-br-3xl shadow-sm hover:bg-gray-100 dark:border-slate-600 dark:bg-dark dark:text-white hover:dark:bg-dark-hover"
+          className="h-full px-5 py-2 outline-none bg-gray-50 border-solid border-1 border-slate-300 border-l-0 rounded-tr-3xl rounded-br-3xl shadow-sm hover:bg-gray-100 dark:border-white/15 dark:bg-dark dark:text-white hover:dark:bg-dark-hover"
           onClick={handleSubmit}
         >
           <TfiSearch size={'1.2rem'} />

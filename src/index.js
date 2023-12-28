@@ -8,6 +8,7 @@ import Main from './pages/Main';
 import Result from './pages/Result';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Channel from './pages/Channel';
+import { HelmetProvider } from 'react-helmet-async';
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -35,9 +36,11 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </HelmetProvider>
   </React.StrictMode>
 );
 

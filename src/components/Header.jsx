@@ -11,9 +11,11 @@ export default function Header({ onClick, darkMode, onDarkMode }) {
     if (darkMode) {
       localStorage.setItem('theme', 'light');
       document.documentElement.classList.remove('dark');
+      document.documentElement.style.backgroundColor = '#fff';
     } else {
       localStorage.setItem('theme', 'dark');
       document.documentElement.classList.add('dark');
+      document.documentElement.style.backgroundColor = '#0f0f0f';
     }
     onDarkMode((prev) => !prev);
   };
@@ -21,12 +23,13 @@ export default function Header({ onClick, darkMode, onDarkMode }) {
   useEffect(() => {
     if (localStorage.getItem('theme') === 'dark') {
       document.documentElement.classList.add('dark');
+      document.documentElement.style.backgroundColor = '#0f0f0f';
       onDarkMode(true);
     }
   }, []);
 
   return (
-    <div className="top-0 inset-x-0 z-40 h-14 flex justify-between items-center bg-white fixed dark:bg-main-dark">
+    <div className="top-0 inset-x-0 z-40 h-14 flex justify-between items-center fixed">
       <MenuLogo darkMode={darkMode} onClick={onClick} />
       <Search />
       <button className="mr-6 flex" onClick={handleDarkMode}>

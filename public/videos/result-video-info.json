@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "YttKYEv5BH365Xrd6bHJ-A_dybI",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "aNMlAyUzeTJOHwJ4UbVnA5L6Eco",
+      "id": "TQSsxSwTPJs",
+      "snippet": {
+        "publishedAt": "2023-12-27T09:00:30Z",
+        "channelId": "UCB11SAf7WSN4GrCquKoOHrw",
+        "title": "노트북 인생 난제! 맥북 vs 윈도우 차이점 뇌에 때려박아(?)드림 [뇌절테크 2화]",
+        "description": "👉🏻 쿠팡에서 아무거나 사러가기 : https://link.coupang.com/a/bkrL0A\n🤍인스타그램: https://www.instagram.com/zuyoni/\n\n00:00 오프닝\n01:14 디자인\n02:01 디스플레이\n03:15 전용 앱 - 문서작업 비교\n06:57 전용 앱 - 맥북으로 게임하기\n08:42 가격\n09:55 무게\n10:16 가성비\n11:03 보안 - 윈도우의 문제\n11:45 확장성 - 맥의 문제\n12:27 마무리\n\n\n📌주연의 두번째 채널 보러가기:  https://youtube.com/channel/UC1YU436hXVXna8YuqQHCYKQ\n\n💜엔딩곡: 주연(ZUYONI) - Baby Blue  https://lnk.to/zuyoni2022\n\n✏️클래스101 수강신청 & 무료 강의 보러가기: https://class101.page.link/c2Ty\n\n\n\n-제작: 주연,희라 / 편집: 이동환\n-비즈니스: springofjuyeon@sandboxnetwork.co.kr\n\n-해당 영상은 영리 목적으로 사용하실 수 없습니다.\n-비영리 목적으로 사용시에도 반드시 출처와 영상 링크 남겨주세요:)\n.\n.\n-Tag: #맥북 #새학기 #노트북추천\n#LG그램 #LG노트북 #삼성노트북 #갤럭시북 #그램 \n#주연 #테크유튜버 #주연리뷰 #IT리뷰",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TQSsxSwTPJs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "주연 ZUYONI",
+        "tags": [
+          "주연",
+          "아이폰",
+          "갤럭시",
+          "맥북",
+          "스마트폰",
+          "테크리뷰",
+          "테크유튜버",
+          "IT리뷰",
+          "전자기기",
+          "IT유튜버"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "노트북 인생 난제! 맥북 vs 윈도우 차이점 뇌에 때려박아(?)드림 [뇌절테크 2화]",
+          "description": "👉🏻 쿠팡에서 아무거나 사러가기 : https://link.coupang.com/a/bkrL0A\n🤍인스타그램: https://www.instagram.com/zuyoni/\n\n00:00 오프닝\n01:14 디자인\n02:01 디스플레이\n03:15 전용 앱 - 문서작업 비교\n06:57 전용 앱 - 맥북으로 게임하기\n08:42 가격\n09:55 무게\n10:16 가성비\n11:03 보안 - 윈도우의 문제\n11:45 확장성 - 맥의 문제\n12:27 마무리\n\n\n📌주연의 두번째 채널 보러가기:  https://youtube.com/channel/UC1YU436hXVXna8YuqQHCYKQ\n\n💜엔딩곡: 주연(ZUYONI) - Baby Blue  https://lnk.to/zuyoni2022\n\n✏️클래스101 수강신청 & 무료 강의 보러가기: https://class101.page.link/c2Ty\n\n\n\n-제작: 주연,희라 / 편집: 이동환\n-비즈니스: springofjuyeon@sandboxnetwork.co.kr\n\n-해당 영상은 영리 목적으로 사용하실 수 없습니다.\n-비영리 목적으로 사용시에도 반드시 출처와 영상 링크 남겨주세요:)\n.\n.\n-Tag: #맥북 #새학기 #노트북추천\n#LG그램 #LG노트북 #삼성노트북 #갤럭시북 #그램 \n#주연 #테크유튜버 #주연리뷰 #IT리뷰"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT14M35S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "74184",
+        "likeCount": "1913",
+        "favoriteCount": "0",
+        "commentCount": "476"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

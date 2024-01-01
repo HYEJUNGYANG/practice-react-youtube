@@ -9,6 +9,7 @@ import Result from './pages/Result';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Channel from './pages/Channel';
 import { HelmetProvider } from 'react-helmet-async';
+import Watch from './pages/Watch';
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: ':channelName',
         element: <Channel />
+      },
+      {
+        path: 'watch',
+        element: <Watch />
       }
     ]
   }

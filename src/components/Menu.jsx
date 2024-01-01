@@ -4,10 +4,10 @@ import { MdHomeFilled, MdOutlineSubscriptions } from 'react-icons/md';
 import { SiYoutubeshorts } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
-export default function Menu({ isLogo, mini }) {
+export default function Menu({ isLogo, mini, darkMode }) {
   return (
     <div
-      className={`${isLogo ? 'z-50' : 'z-20'} fixed top-0 bottom-0 left-0 ${
+      className={`${isLogo ? 'z-40' : 'z-20'} fixed top-0 bottom-0 left-0 ${
         mini ? 'w-22' : 'w-58'
       } overflow-y-auto`}
     >
@@ -25,7 +25,14 @@ export default function Menu({ isLogo, mini }) {
               title={m.title}
               key={idx}
             >
-              <span className="text-2xl pl-1 dark:text-white">{m.icon}</span>
+              {/* <span className="text-2xl pl-1 dark:text-white">{m.icon}</span> */}
+              <div className="pl-1">
+                {darkMode ? (
+                  <img src={`${m.darkICon}`} alt="icon" />
+                ) : (
+                  <img src={`${m.icon}`} alt="icon" />
+                )}
+              </div>
               <span
                 className={`${
                   mini ? 'text-xxs ml-1' : 'text-sm'
@@ -44,14 +51,17 @@ export default function Menu({ isLogo, mini }) {
 const menu = [
   {
     title: '홈',
-    icon: <MdHomeFilled />
+    icon: 'img/icon/home-fill.svg',
+    darkICon: 'img/icon/home-dark-fill.svg'
   },
   {
     title: 'Shorts',
-    icon: <SiYoutubeshorts />
+    icon: 'img/icon/shorts.svg',
+    darkICon: 'img/icon/shorts-dark.svg'
   },
   {
     title: '구독',
-    icon: <MdOutlineSubscriptions />
+    icon: 'img/icon/subscription.svg',
+    darkICon: 'img/icon/subscription-dark.svg'
   }
 ];

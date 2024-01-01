@@ -27,7 +27,7 @@ export default function Main() {
         <title>YouTube</title>
       </Helmet>
       <div className="flex pt-6 -ml-2">
-        <Menu mini={mini} />
+        <Menu mini={mini} darkMode={darkMode} />
         <div className={`flex flex-col ${mini ? 'pl-22' : 'pl-58'}`}>
           <VideoFilter mini={mini} />
           <div className={`flex flex-wrap mt-16`}>

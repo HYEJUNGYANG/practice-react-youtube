@@ -29,7 +29,7 @@ export default function Header({ onClick, darkMode, onDarkMode }) {
   }, []);
 
   return (
-    <div className="top-0 inset-x-0 z-40 h-14 flex justify-between items-center fixed">
+    <div className="top-0 inset-x-0 z-50 h-14 flex justify-between items-center fixed bg-white dark:bg-main-dark">
       <MenuLogo darkMode={darkMode} onClick={onClick} />
       <Search />
       <button className="mr-6 flex" onClick={handleDarkMode}>

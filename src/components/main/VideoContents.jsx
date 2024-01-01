@@ -16,10 +16,9 @@ export default function VideoContents({ video, mini, darkMode }) {
   } = useQuery({
     queryKey: ['channel', channelId],
     queryFn: async () => {
-      return fetch(`videos/channel.json`).then((res) => {
-        console.log('fetch...');
-        return res.json();
-      });
+      return fetch(
+        `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${channelId}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`
+      ).then((res) => res.json());
     }
   });
 
@@ -34,6 +33,10 @@ export default function VideoContents({ video, mini, darkMode }) {
         state: { channel: channel.items[0] }
       }
     );
+  };
+
+  const navigateVideo = () => {
+    navigate(`/watch?v=${video.id}`);
   };
 
   useEffect(() => {
@@ -62,6 +65,7 @@ export default function VideoContents({ video, mini, darkMode }) {
     >
       <div
         className={`relative cursor-pointer w-full rounded-xl overflow-hidden hover:rounded-none duration-300 ease-in-out`}
+        onClick={navigateVideo}
       >
         <span
           className={`absolute bottom-1 right-1 px-1 py-0.5 bg-black/95 text-white text-xs font-bold tracking-tighter rounded-md`}

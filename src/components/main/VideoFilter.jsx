@@ -5,7 +5,7 @@ export default function VideoFilter({ mini }) {
     <div
       className={`fixed top-14 left-0 right-0 py-3 flex gap-3.5 z-10 ${
         mini ? 'pl-22' : 'pl-58'
-      }`}
+      } bg-white dark:bg-main-dark`}
     >
       {filters.map((filter, idx) => (
         <div
